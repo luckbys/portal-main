@@ -409,31 +409,6 @@ const AppContent: React.FC = () => {
         </div>
       </div>
 
-      {/* Código de Verificação */}
-      <div className="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden mb-8">
-        <div className="bg-gray-50 px-6 py-4 border-b border-gray-100 flex items-center gap-3">
-          <i className="fa-solid fa-fingerprint text-[#00796a] text-lg"></i>
-          <h2 className="text-sm font-black text-gray-700 uppercase tracking-wide">Verificação de Autenticidade</h2>
-        </div>
-        <div className="p-6 text-center">
-          <p className="text-xs text-gray-500 mb-3">Para verificar as assinaturas, acesse o site e utilize o código abaixo:</p>
-          <div className="inline-block bg-gray-900 text-green-400 font-mono text-lg md:text-xl font-bold px-8 py-4 rounded-lg tracking-[0.3em] mb-4 shadow-inner">
-            {diploma.codigoVerificacao}
-          </div>
-          <div className="mt-2">
-            <a
-              href={diploma.urlVerificacao}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#00796a] hover:text-teal-800 text-xs font-bold underline underline-offset-4 decoration-teal-300 hover:decoration-teal-500 transition-colors inline-flex items-center gap-1"
-            >
-              <i className="fa-solid fa-external-link-alt"></i>
-              {diploma.urlVerificacao}
-            </a>
-          </div>
-        </div>
-      </div>
-
       {/* Disclaimer */}
       <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mb-8 flex items-start gap-3">
         <i className="fa-solid fa-triangle-exclamation text-amber-500 mt-0.5"></i>
