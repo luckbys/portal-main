@@ -416,6 +416,9 @@ const AppContent: React.FC = () => {
           Diploma registrado de acordo com o disposto no art. 48 da Lei nº 9.394, de 20 de dezembro de 1996, e na Portaria MEC nº 1.095, de 25 de outubro de 2018. Representação gráfica de Diploma Digital, conforme Instrução Normativa nº 1, de 15 de dezembro de 2020.
         </p>
       </div>
+      <div className="text-center text-[10px] text-gray-500 mb-10 font-mono tracking-wider">
+        HASH VERIFICADO: 9F3A-7C21-BD8E-4A6F
+      </div>
 
       {/* Botão Voltar */}
       <div className="flex justify-center mb-12">
