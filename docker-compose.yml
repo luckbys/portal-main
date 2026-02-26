@@ -1,0 +1,11 @@
+services:
+  portal-uam:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+    container_name: portal-do-aluno-uam
+    ports:
+      - "80:80"
+    restart: unless-stopped
